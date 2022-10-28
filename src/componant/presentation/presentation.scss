@@ -1,0 +1,72 @@
+
+
+.presentation{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.borderPresentation{
+    margin-left:5vw;
+    margin-top:2vh;
+    width:90vw;
+    height: 41vw;
+    background: var(--primary_1);
+    border-radius: 30px;
+    box-shadow: var(--box-shadow-nav);
+    display: grid;
+    grid-template-columns: 59vw 30vw;    
+}
+
+.inToPresentation{
+    margin-top:0.5vw;
+    margin-left: 0.5vw;
+    width:59vw;
+    height: 40vw;
+    background: white;
+    border-radius: 28px;
+    display: grid;
+    grid-template-columns: 50vw 9vw;    
+}
+
+.videoPresentation{
+    margin-left: 10vw;
+    margin-top: 1vw;
+    width: 30vw;
+    height: 38vw;
+    background: white;
+    border-radius: 30px;
+
+}
+
+.borderObj{
+    margin-top: 2vh;
+    width:7vw;
+    height: 7vw;
+    background: var(--primary_1);
+    border-radius: 50%;
+}
+
+.divVideoObj{
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    width:6vw;
+    height: 6vw;
+    background: white;
+    border-radius: 50%;
+}
+
+.infoPresentation{
+    padding:10%;
+    color:  var(--gray_1);
+    word-wrap: break-word;
+}
+
+.infoPresentationTitre{
+
+}
+
+.infoPresentationText{
+    font-size: 15px;
+}

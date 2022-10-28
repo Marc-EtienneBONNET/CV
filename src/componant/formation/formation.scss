@@ -1,0 +1,73 @@
+
+.borderFormation{
+    border: 5px solid #000000;
+    border-image: var(--primary_1);
+    border-image-slice:1;
+    box-shadow: var(--box-shadow-nav);
+    margin-top:3vh;
+    margin-left:4vw;
+    width: 42vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,20vw);
+    transition: width 0.3s, margin-left 0.3s, background-color 0.3s;
+    &:hover{
+        width: 49vw;
+        margin-left:0.2vw;
+        background: white;
+    }
+}
+
+.contenantFormation{
+    margin-left:2.5vw;
+}
+
+.imgFromation{
+    width: 15vw;
+    height: 15vw;
+    margin: 1vw;
+    border-radius: 50%;
+}
+
+.titreFormation{
+    //color:var(--gray_1);
+    margin:0px;
+}
+
+.diplome{
+    color:var(--gray_1);
+    font-size: 15px;
+    margin:30px;
+
+}
+
+.dateFormation{
+    color:var(--gray_1);
+    font-size: 15px;
+    margin:30px;
+}
+
+.textFormation{
+    color:var(--gray_1);
+    margin:0px;
+    font-size: 20px;
+}
+
+.leBlockTextFormation{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+
+.smil{
+    font-size: 4vw;
+    color: var(--gray_1);
+}
+
+.titre{
+    display: grid;
+    grid-template-columns: 80% 20%; 
+}
+

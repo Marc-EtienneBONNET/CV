@@ -1,0 +1,152 @@
+.parcours{
+    display: grid;
+    grid-template: 80vh 6vh 40vh;    
+    height: 86vh;
+}
+
+.friseChronologique{
+    margin-left: 5vw;
+    width: 90vw;
+    height: 6vh;
+    background: var(--primary_1);
+    border-radius: 20px;
+}
+
+
+.eventsA{
+    height: 10vh;
+    margin-left: 6vw;
+    width:94vw;
+    display: grid;
+    grid-template-columns: repeat(6,15.6vw);    
+}
+
+.eventsB{
+    height: 10vh;
+    margin-left: 11vw;
+    width:89vw;
+    display: grid;
+    grid-template-columns: repeat(5,17.8vw);    
+
+}
+
+.eventsAInfo{
+    width:99vw;
+    height: 23.5vh;
+    margin-top: 4vh;
+    margin-left: 1vw;
+
+    display: grid;
+    grid-template-columns: repeat(6,15.6vw);    
+}
+
+.eventsBInfo{
+    width:94vw;
+    height: 15vh;
+    margin-bottom: 15vh;
+    margin-left: 6vw;
+    display: grid;
+    grid-template-columns: repeat(5,17.8vw);    
+}
+
+
+.event{
+    background: var(--primary_1);
+    width: 5px;
+    box-shadow: var(--box-shadow-nav);
+
+}
+
+.iconTropherParcours{
+    font-size: 4vh;
+    color:white;
+    margin-left: 3.5vw;
+    padding : 1vw;
+}
+
+.border2{
+    width: 70%;
+    word-wrap: break-word;
+    font-size: 0px;
+    background: var(--primary_1);
+    border-radius: 15px;
+    padding: 5px;
+    min-height: 7vh;
+    margin-top: 15.5vh;
+    transition: margin-top 0.3s;
+}
+
+.border{
+    width: 70%;
+    word-wrap: break-word;
+    font-size: 0px;
+    background: var(--primary_1);
+    border-radius: 15px;
+    padding: 5px;
+    min-height: 7vh;
+    margin-top: 8.5vh;
+    transition: margin-top 0.3s;
+}
+
+.borderB{
+    width: 70%;
+    word-wrap: break-word;
+    font-size: 0vh;
+    background: var(--primary_1);
+    border-radius: 15px;
+    padding: 5px;
+    min-height: 7vh;
+    margin-top: 0vh;
+}
+
+.eventInfoborder, .eventInfoborder2{
+    background: white;
+    border-radius: 12px;
+    min-height: 5vh;
+    padding: 10px;
+}
+
+
+.eventInfoborderB{
+    background: white;
+    border-radius: 12px;
+    min-height: 5vh;
+    padding: 10px;
+}
+
+.dateEvent{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.titreEvent{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.theme{
+    width:97vw;
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.btnThemeParcours{
+    width:90%;
+    height: 5vh;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: 5px solid var(--primary_3);
+    color:var(--primary_3);
+    box-shadow: var(--box-shadow-nav);
+    transition: background-color 0.3s, color 0.3s;
+    &:hover{
+        background-color: var(--primary_3);
+        color: white;
+    }
+}
+
+
+

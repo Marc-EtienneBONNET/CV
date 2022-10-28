@@ -1,0 +1,135 @@
+
+.borderContact{
+    margin-top: 3vh;
+    margin-left: 2.5vw;
+    background: var(--primary_1);
+    width: 95vw;
+    height: 80vh;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 60vw 35vw;
+    box-shadow: var(--box-shadow-nav);
+}
+
+
+.lienContact{
+    margin-left: 0.28vw;
+    margin-top: 0.5vh;
+    width: 60vw;
+    height: 79vh;
+    background: white;
+    border-radius: 28px;
+    display: grid;
+    grid-template: 26vw 14vw;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.apparailPhoto{
+    margin-top: 3vh;
+    margin-left: 28vw;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.objContact{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    margin-left: 4.5%;
+}
+
+.iconContact{
+    margin: 20px;
+    font-size: 50px;
+}
+
+.iconContactinfo{
+    font-size: 20px;
+}
+
+
+.titreContact{
+    margin-top: 10vh;
+    margin-left:1vw;
+    word-wrap: break-word;
+}
+
+.textContact{
+    margin-left:1vw;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.objContactLien{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    margin-left: 4.5%;
+    text-align: center;
+}
+
+.iconContactLien{
+    font-size: 100px;
+}
+
+.espaceIconneConntact{
+    transition: color 0.3s;
+    font-size: 7vw;
+    &:hover{
+        color: white;
+    }
+}
+.inputForMail{
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+}
+
+.inputNom{
+    margin-left: 3vw;
+}
+
+
+.inputNomContenue{
+    border: 5px solid var(--primary_3);
+    box-shadow: var(--box-shadow-nav);
+    border-radius: 10px;
+    margin-left: 5%;
+    font-size: 20px;
+    height: 30vh;
+    width: 90%;
+    transition: background-color 0.3s;
+    &:hover{
+        background-color: white;
+    }
+
+}
+
+.inputNomButton{
+    border: 5px solid var(--primary_3);
+    background-color: var(--primary_4);
+    box-shadow: var(--box-shadow-nav);
+    border-radius: 30px;
+    height: 5vh;
+    width: 90%;
+    margin-left: 3vw;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    &:hover{
+        background-color: white;
+    }
+}
+
+.inputType{
+    border: 5px solid var(--primary_3);
+    background-color: var(--primary_4);
+    box-shadow: var(--box-shadow-nav);
+    border-radius: 10px;
+    height: 5vh;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    &:hover{
+        background-color: white;
+    }
+}
