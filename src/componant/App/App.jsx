@@ -16,9 +16,9 @@ import PagePresentation from './../presentation/presentation';
 function App() {
   let page = {
     'Accueil':<PageAccueil/>,
-    'Parcour':<PageParcours/>,
+    'Parcours':<PageParcours/>,
     'Portfolio':<PagePortfolio/>,
-    'Competance':<PageCompetance/>,
+    'Compétences':<PageCompetance/>,
     'Formation':<PageFormation/>,
     'Contact':<PageContact/>,
   };
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <div style={{height:'7vh'}}>
-        <ComposantLayout logo='logoDev.jpg' listeBtn={['Formation', 'Parcour','Competance', 'Portfolio','Contact']} setwichPage={setwichPage}/>
+        <ComposantLayout logo='logoDev.jpg' listeBtn={['Formation', 'Parcours','Compétences', 'Portfolio','Contact']} setwichPage={setwichPage}/>
       </div>
       <div style={{minHeight:'86vh'}}>
         {page[wichPage]}

@@ -25,7 +25,8 @@ function PageContact()
     return (
         <div className="contact">
             <div className="borderContact">
-                <form className="lienContact">
+                {/* <form className="lienContact">
+
                     <div className="inputForMail">
                         <input type='text' value={mail.nom} className="inputNom inputType" name='nom' onChange={(e) => {handleOnChange(e,'nom')}}/>
                         <input type='text' value={mail.prenom} className="inputNom inputType" name='prenom' onChange={(e) => {handleOnChange(e,'prenom')}}/>
@@ -36,11 +37,13 @@ function PageContact()
                     </div>
                     <input type='text' value={mail.text} className="inputNomContenue" name='text' onChange={(e) => {handleOnChange(e,'text')}}/>
                     <input type='button' value='Envoyez !' className="inputNomButton"/>
-                </form>
-                <div>
+                </form> */}
                     <div className="apparailPhoto"></div>
-                    <h1 className="titreContact">Venez me rencontrez !</h1>
-                    <p className="textContact">Au travers de ces differents lien, venez decouvir ou me contacter afin de trouver votre nouveau profil</p>
+                <div className="infoContact">
+                    <div>
+                        <h1 className="titreContact">Venez me rencontrer !</h1>
+                        <p className="textContact">Au travers de ces différents liens, venez découvrir ou me contacter afin de trouver votre nouveau profil.</p>
+                    </div>
                     <div className="objContact">
                         <i class="fa-solid fa-phone iconContact "></i>
                         <p className="iconContactinfo">06 17 41 34 71</p>
