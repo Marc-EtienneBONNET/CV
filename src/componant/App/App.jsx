@@ -22,7 +22,7 @@ function App() {
     'Formation':<PageFormation/>,
     'Contact':<PageContact/>,
   };
-  const [wichPage, setwichPage] = useState('Accueil');
+  const [wichPage, setwichPage] = useState('Portfolio');
   return (
     <div className="App">
       <div style={{height:'7vh'}}>

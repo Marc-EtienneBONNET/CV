@@ -21,7 +21,6 @@ function PageContact()
         }
         setMail(tmp);
     }
-    console.log(mail);
     return (
         <div className="contact">
             <div className="borderContact">

@@ -1,8 +1,8 @@
 function PagePortfolio()
 {
-    let projets = [{ srcImg:'pong.jpg', srcLien:'https://google.fr', srcAudio:'pong.mp3'},
-                    { srcImg:'transandance.jpg', srcLien:'https://google.fr', srcAudio:'transandance.mp3'},
-                    { srcImg:'panier.png', srcLien:'https://google.fr', srcAudio:'panier.mp3'},]
+    let projets = [{ srcImg:'./projet/transandance.jpg', srcLien:'https://github.com/Marc-EtienneBONNET/ft_Transcendance', srcAudio:'transandance.mp4'},
+    { srcImg:'./projet/panier.png', srcLien:'https://github.com/Marc-EtienneBONNET/test_neoxia', srcAudio:'panier.mp4'},                
+    { srcImg:'./photo/3.jpeg', srcLien:'https://github.com/Marc-EtienneBONNET', srcAudio:'moi.mp4'},]
     function createElement()
     {
         let tmp = projets.map((element) => {
@@ -10,8 +10,8 @@ function PagePortfolio()
                 <div className="portfolioBordurProjet" >
                 <div className="portfolioProjet">
                     <i class="fa-solid fa-volume-high logoSong"></i> 
-                    <img  onClick={() => {window.open(element.srcImg)}} onMouseOver={() => {document.getElementById(element.srcAudio).play()}} onMouseOut={() => {document.getElementById(element.srcAudio).pause()}} className="portfolioImgProjet" src={'./projet/'+ element.srcImg}></img>
-                    <audio id={element.srcAudio} src={'./projet/' + element.srcAudio} type='MP3'/>
+                    <img  onClick={() => {console.log('coucou');window.open(element.srcLien)}} onMouseOver={() => {document.getElementById(element.srcAudio).play()}} onMouseOut={() => {document.getElementById(element.srcAudio).pause()}} className="portfolioImgProjet" src={element.srcImg}></img>
+                    <audio id={element.srcAudio} src={'./audio/' + element.srcAudio} type='MP3'/>
                 </div>
             </div>
             );
