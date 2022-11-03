@@ -10,7 +10,7 @@ function PagePortfolio()
                 <div className="portfolioBordurProjet" >
                 <div className="portfolioProjet">
                     <i class="fa-solid fa-volume-high logoSong"></i> 
-                    <img  onClick={() => {console.log('coucou');window.open(element.srcLien)}} onMouseOver={() => {document.getElementById(element.srcAudio).play()}} onMouseOut={() => {document.getElementById(element.srcAudio).pause()}} className="portfolioImgProjet" src={element.srcImg}></img>
+                    <img  onClick={() => {window.open(element.srcLien)}} onMouseOver={() => {document.getElementById(element.srcAudio).play()}} onMouseOut={() => {document.getElementById(element.srcAudio).pause()}} className="portfolioImgProjet" src={element.srcImg}></img>
                     <audio id={element.srcAudio} src={'./audio/' + element.srcAudio} type='MP3'/>
                 </div>
             </div>
