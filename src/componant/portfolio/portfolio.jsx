@@ -1,7 +1,7 @@
 function PagePortfolio()
 {
     let projets = [{ srcImg:'./projet/transandance.jpg', srcLien:'https://github.com/Marc-EtienneBONNET/ft_Transcendance', srcAudio:'transandance.mp4'},
-    { srcImg:'./projet/panier.png', srcLien:'https://github.com/Marc-EtienneBONNET/test_neoxia', srcAudio:'panier.mp4'},                
+    { srcImg:'./projet/panier.jpg', srcLien:'https://github.com/Marc-EtienneBONNET/test_neoxia', srcAudio:'panier.mp4'},                
     { srcImg:'./photo/3.jpeg', srcLien:'https://github.com/Marc-EtienneBONNET', srcAudio:'moi.mp4'},]
     function createElement()
     {

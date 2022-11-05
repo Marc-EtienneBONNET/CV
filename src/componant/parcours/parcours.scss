@@ -16,9 +16,10 @@
 .eventsA{
     height: 10vh;
     margin-left: 6vw;
+    margin-bottom: 0px;
     width:94vw;
     display: grid;
-    grid-template-columns: repeat(6,15.6vw);    
+    grid-template-columns: repeat(6,15.6vw); 
 }
 
 .eventsB{
@@ -26,16 +27,14 @@
     margin-left: 11vw;
     width:89vw;
     display: grid;
-    grid-template-columns: repeat(5,17.8vw);    
-
+    grid-template-columns: repeat(5,17.8vw);   
 }
 
 .eventsAInfo{
     width:99vw;
-    height: 23.5vh;
+    height: 15vh;
     margin-top: 4vh;
     margin-left: 1vw;
-
     display: grid;
     grid-template-columns: repeat(6,15.6vw);    
 }
@@ -54,73 +53,71 @@
     background: var(--primary_1);
     width: 5px;
     box-shadow: var(--box-shadow-nav);
-
+    height: 100%;
 }
 
 .iconTropherParcours{
-    font-size: 4vh;
+    font-size: 3.5vh;
+    margin-top: 1.5vh;
     color:white;
-    margin-left: 3.5vw;
-    padding : 1vw;
+    padding : 0.5vh;
 }
 
 .border2{
     width: 70%;
     word-wrap: break-word;
-    font-size: 0px;
     background: var(--primary_1);
     border-radius: 15px;
-    padding: 5px;
-    min-height: 7vh;
-    margin-top: 15.5vh;
-    transition: margin-top 0.3s;
+    padding: 0.5vh;
+    margin-top: 7.5vh;
 }
 
 .border{
     width: 70%;
     word-wrap: break-word;
-    font-size: 0px;
     background: var(--primary_1);
     border-radius: 15px;
-    padding: 5px;
-    min-height: 7vh;
-    margin-top: 8.5vh;
-    transition: margin-top 0.3s;
+    padding: 0.5vh;
+    display: grid;
+    grid-template-columns: 30% 70%;    
+    margin-top: 7.5vh;
+    height: 7vh;
 }
 
 .borderB{
     width: 70%;
     word-wrap: break-word;
-    font-size: 0vh;
     background: var(--primary_1);
     border-radius: 15px;
-    padding: 5px;
-    min-height: 7vh;
-    margin-top: 0vh;
+    padding: 0.5vh;   
 }
 
-.eventInfoborder, .eventInfoborder2{
-    background: white;
-    border-radius: 12px;
-    min-height: 5vh;
-    padding: 10px;
+.borderB2{
+    width: 70%;
+    word-wrap: break-word;
+    background: var(--primary_1);
+    border-radius: 15px;
+    padding: 0.5vh;
+    display: grid;
+    grid-template-columns: 30% 70%;    
+    height: 7vh;
 }
 
 
-.eventInfoborderB{
+.eventInfo{
     background: white;
     border-radius: 12px;
-    min-height: 5vh;
-    padding: 10px;
+    padding: 0.5vh;
+    height: 6vh;
 }
 
 .dateEvent{
-    font-size: 20px;
+    font-size: 2vh;
     padding: 0px;
     margin: 0px;
 }
 .titreEvent{
-    font-size: 12px;
+    font-size: 1vh;
     padding: 0px;
     margin: 0px;
 }
@@ -147,6 +144,8 @@
         color: white;
     }
 }
+
+
 
 
 

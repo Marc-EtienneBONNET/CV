@@ -6,7 +6,7 @@ function PageFormation()
     {
         let tmp = formations.map((element) => {
             return (
-                <div className="borderFormation" onClick={() => {window.open(element.lien)}}>
+                <div className="borderFormation" onClick={() => {window.open(element.lien)}} key={element.nom}>
                         <div className="contenantFormation">
                             <img src={'./logo/'+ element.src} className='imgFromation'/>
                                 <h1 className="titreFormation">{element.nom}</h1>
