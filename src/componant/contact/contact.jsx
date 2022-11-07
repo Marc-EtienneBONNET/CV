@@ -40,7 +40,7 @@ function PageContact()
                     <div className="apparailPhoto"></div>
                 <div className="infoContact">
                     <div>
-                        <h1 className="titreContact">Venez me rencontrer !</h1>
+                        <h1 className="titreContact">Hâte de vous rencontrer !</h1>
                         <p className="textContact">Au travers de ces différents liens, venez découvrir ou me contacter afin de trouver votre nouveau profil.</p>
                     </div>
                     <div className="objContact">
